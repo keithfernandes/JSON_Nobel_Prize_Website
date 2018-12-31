@@ -1,0 +1,28 @@
+﻿body {
+    background-color: #000000;
+}
+
+img {`
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+
+div {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #FFD700;
+    margin: 0;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+p {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: "Courier New", Courier, monospace;
+    position: relative;
+    top: 80px;
+}

@@ -1,0 +1,115 @@
+﻿body {
+    background-color: #FAFAD2 !important;
+}
+
+#nobel {
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+
+#Button1, #btnSearch {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 15px;
+    background-color: #4B0082;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.title {
+    font-family: "Courier New", Courier, monospace !important;
+    color: #343148 !important;
+    background-color: #FFD700 !important;
+    margin: 0 !important;
+    top: 0px !important;
+    left: 0px !important;
+    width: 100% !important;
+    position: fixed !important;
+    z-index: 50 !important;
+}
+
+.menu {
+    top: 15px;
+    left: 350px;
+    position: fixed;
+    z-index: 100;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.dropdown {
+    background-color: #4B0082;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown_content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown_content a:hover {
+            background-color: #ddd;
+        }
+
+.menu:hover .dropdown_content {
+    display: block;
+}
+
+.menu:hover .dropdown {
+    background-color: #4B0082;
+}
+
+.content {
+    font-size: 20px;
+    color: #343148;
+    font-family: "Courier New", Courier, monospace;
+    position: relative;
+    top: 80px;
+}
+/*Change 1- Om Prakash-Use of CSS in Table for improved styling*/
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
